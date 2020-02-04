@@ -37,7 +37,7 @@ There is also a Flask demo application in the *api* folder of this repository.
 First, build your image based on your Dockerfile.
 
 ```
-docker build -t pyapi .
+docker build -t pyapi
 ```
 
 Then, you can run a container like this :
