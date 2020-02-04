@@ -1,7 +1,7 @@
 # Docker Image : python-nginx
 
 [![Build Status](https://travis-ci.org/sanjibm/docker-nginx-server.svg?branch=master)](https://https://travis-ci.com/sanjibm/docker-nginx-server)
-[![license](https://img.shields.io/github/license/sanjibm/docker-nginx-server/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/sanjibm/docker-nginx-server.svg)](https://github.com/sanjibm/docker-nginx-server/blob/master/LICENSE)
 
 
 This image contains Nginx with Gunicorn on top of Python3 docker image.
