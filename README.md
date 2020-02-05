@@ -21,6 +21,9 @@ and then run
 ```
 docker run -p 127.0.0.1:8000:80 sanjibm/python-nginx
 ```
+
+Now point your host's browser to http://localhost:8000 and you should see the output "Hello World"
+
 ## Running your own container
 
 The entry point of your application must be named as **run.py**. Moreover, the instance in that file must be called **api**.
