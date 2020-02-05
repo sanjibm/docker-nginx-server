@@ -8,7 +8,7 @@ branches:
     - "master"
 
 before_script:
-    - image="python-gunicorn-nginx:latest"
+    - image="python-nginx:latest"
 
 script:
     - docker build -t ${image} .
