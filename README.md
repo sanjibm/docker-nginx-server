@@ -21,7 +21,7 @@ and then run
 ```
 docker run -p 127.0.0.1:8000:80 sanjibm/python-nginx
 ```
-## Running your own image
+## Running your own container
 
 The entry point of your application must be named as **run.py**. Moreover, the instance in that file must be called **api**.
 Also, by default the worker class used is Gevent.
