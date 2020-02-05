@@ -7,7 +7,7 @@
 
 
 This image contains Nginx with Gunicorn on top of Python3 docker image.
-These two software are managed with Supervisor.
+These software entities are managed with Supervisor.
 
 # Usage
 
