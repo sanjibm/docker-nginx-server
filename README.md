@@ -9,14 +9,26 @@
 This image contains Nginx with Gunicorn on top of Python3 docker image.
 These two software are managed with Supervisor.
 
-## Usage
+# Usage
+
+## Running directly off DockerHub
+To try out the image directy from DockerHub, pull the image with:
+```
+docker pull sanjibm/python-nginx:latest
+```
+
+and then run
+```
+docker run -p 127.0.0.1:8000:80 sanjibm/python-nginx
+```
+## Running your own image
 
 The entry point of your application must be named as **run.py**. Moreover, the instance in that file must be called **api**.
 Also, by default the worker class used is Gevent.
 
 You can include a custom Gunicorn configuration file into your application. By default the configuration file must be named as **gunicorn.config.py**
 
-## Dockerfile example
+### Dockerfile example
 
 Here is an example of a Dockerfile using that image :
 
@@ -34,7 +46,7 @@ RUN pip install -r /api/requirements.txt
 
 There is also a Flask demo application in the *api* folder of this repository.
 
-## Build and run
+### Build and run
 
 First, build your image based on your Dockerfile.
 
