@@ -14,7 +14,7 @@ These two software are managed with Supervisor.
 The entry point of your application must be named as **run.py**. Moreover, the instance in that file must be called **api**.
 Also, by default the worker class used is Gevent.
 
-You can include a custom Gunicorn configuration file into your application. By default the configuration file must be name as **gunicorn.config.py**
+You can include a custom Gunicorn configuration file into your application. By default the configuration file must be named as **gunicorn.config.py**
 
 ## Dockerfile example
 
